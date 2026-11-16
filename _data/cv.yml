@@ -1,0 +1,13 @@
+cv:
+  name: Sehyeon Lee
+  label: PhD Student in Computer Science
+  social_networks:
+    - network: GitHub
+      username: selectriclee
+  sections:
+    Education:
+      - institution: University of Illinois Urbana-Champaign
+        area: Computer Science
+        studyType: PhD
+        highlights:
+          - In progress
