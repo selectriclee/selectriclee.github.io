@@ -15,5 +15,8 @@ latest_posts:
 ---
 
 I am a PhD student in Computer Science at the [University of Illinois Urbana-Champaign](https://illinois.edu/).
+I am advised by [Professor Nishil Talati](https://sites.google.com/site/nishiltalatipersonal/).
 
-This is a home for my research, publications, and academic activities.
+My main research interest is hardware–software co-design for agentic AI.
+
+I am part of the amazing book club, [Miracle Classics](https://www.instagram.com/miracle_classics.univ/).
