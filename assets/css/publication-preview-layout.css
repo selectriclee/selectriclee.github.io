@@ -1,0 +1,50 @@
+.publications--large-previews ol.bibliography,
+.publications--large-previews ol.bibliography > li {
+  list-style: none;
+}
+
+.publications--large-previews ol.bibliography {
+  padding-left: 0;
+}
+
+.publications--large-previews ol.bibliography > li > .row {
+  display: grid;
+  grid-template-columns: 154px minmax(0, 1fr);
+  gap: 24px;
+  align-items: center;
+  margin-inline: 0;
+}
+
+.publications--large-previews ol.bibliography > li > .row > .abbr,
+.publications--large-previews ol.bibliography > li > .row > .col-sm-8 {
+  width: auto;
+  max-width: none;
+  height: auto;
+  padding: 0;
+}
+
+.publications--large-previews .abbr a,
+.publications--large-previews .preview {
+  display: block;
+}
+
+.publications--large-previews .abbr figure {
+  margin: 0;
+}
+
+.publications--large-previews .preview {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 640px) {
+  .publications--large-previews ol.bibliography > li > .row {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .publications--large-previews ol.bibliography > li > .row > .abbr {
+    width: min(154px, 100%);
+    justify-self: center;
+  }
+}

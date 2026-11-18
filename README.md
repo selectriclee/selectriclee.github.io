@@ -2,12 +2,13 @@
 
 https://selectriclee.github.io/
 
-Built with the official [al-folio](https://github.com/alshedivat/al-folio) starter. Layouts, styling, and runtime assets come directly from its pinned plugin gems. There are no local theme overrides.
+Built with the official [al-folio](https://github.com/alshedivat/al-folio) starter. Layouts, styling, and runtime assets come directly from its pinned plugin gems. A page-scoped stylesheet enlarges publication thumbnails; the theme templates remain unchanged.
 
 ## Edit content
 
 - `_pages/about.md`: biography; the profile photo is disabled.
-- `_pages/publications.md` and `_bibliography/papers.bib`: publications.
+- `_pages/publications.md` and `_bibliography/papers.bib`: publications; `assets/css/publication-preview-layout.css` sets the responsive thumbnail layout.
+- `assets/img/publication_preview/duru-pareto-v3.svg`: simplified measured Pareto thumbnail; `assets/js/publication-previews.js` links it to FairServing.
 - `_pages/cv.md` and `_data/cv.yml`: CV page and education.
 - `_data/socials.yml`: public profile links.
 - `_news/`: dated announcements.

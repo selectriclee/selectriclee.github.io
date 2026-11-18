@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="320" viewBox="0 0 480 320" role="img" aria-labelledby="title desc">
+  <title id="title">Duru: better fairness with high throughput</title>
+  <desc id="desc">
+    Simplified measured Pareto comparison for DeepSeek V4 on TraceLab using eight MI300X GPUs. Duru reaches 4.88 times baseline inverse slowdown at
+    1203 output tokens per second, versus 1248 for the baseline. Coordinates preserve the measured values; tick labels are omitted for readability.
+  </desc>
+  <rect width="480" height="320" rx="18" fill="#f7faf7" />
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text transform="translate(35 160) rotate(-90)" text-anchor="middle" font-size="44" font-weight="600" fill="#53695d">tok/s</text>
+    <path d="M80 80V250H440" fill="none" stroke="#8c9f94" stroke-width="3" />
+    <path d="M80 165H430M255 80V250" fill="none" stroke="#e1e8e2" stroke-width="2" />
+    <text x="260" y="299" font-size="44" font-weight="600" text-anchor="middle" fill="#53695d">Fairness</text>
+    <path d="M143.64 108.33L390.73 113.46" stroke="#9baea1" stroke-width="3" stroke-dasharray="7 7" fill="none" />
+    <circle cx="390.73" cy="113.46" r="29" fill="#e2f1e8" />
+    <polygon
+      points="390.73,94.46 395.73,106.58 408.80,107.59 398.81,116.09 401.90,128.83 390.73,121.96 379.56,128.83 382.65,116.09 372.66,107.59 385.73,106.58"
+      fill="#147d61"
+    />
+    <text x="390.73" y="75" text-anchor="middle" font-size="38" font-weight="700" fill="#147d61">Duru</text>
+    <circle cx="261.90" cy="184.56" r="10" fill="#ffffff" stroke="#326ac2" stroke-width="4" />
+    <circle cx="118.24" cy="219.78" r="10" fill="#ffffff" stroke="#c85c33" stroke-width="4" />
+    <path d="M143.64 96.33l12 12-12 12-12-12z" fill="#7555a5" />
+    <text x="143.64" y="75" text-anchor="middle" font-size="38" font-weight="700" fill="#7555a5">Baseline</text>
+  </g>
+</svg>
