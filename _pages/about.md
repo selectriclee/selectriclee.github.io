@@ -3,7 +3,10 @@ layout: about
 title: about
 permalink: /
 subtitle: PhD Student · Computer Science · University of Illinois Urbana-Champaign
-profile: false
+profile:
+  align: right
+  image: sehyeon-lee.jpg
+  image_circular: false
 selected_papers: false
 social: true
 announcements:
@@ -13,6 +16,8 @@ announcements:
 latest_posts:
   enabled: false
 ---
+
+<link rel="stylesheet" href="{{ '/assets/css/profile-photo.css' | relative_url }}?v=3">
 
 I am a PhD student in Computer Science at the [University of Illinois Urbana-Champaign](https://illinois.edu/).
 I am advised by [Professor Nishil Talati](https://sites.google.com/site/nishiltalatipersonal/).

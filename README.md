@@ -2,15 +2,15 @@
 
 https://selectriclee.github.io/
 
-Built with the official [al-folio](https://github.com/alshedivat/al-folio) starter. Layouts, styling, and runtime assets come directly from its pinned plugin gems. A page-scoped stylesheet enlarges publication thumbnails; the theme templates remain unchanged.
+Built with the official [al-folio](https://github.com/alshedivat/al-folio) starter. Layouts, styling, and runtime assets come directly from its pinned plugin gems. A page-scoped stylesheet enlarges publication thumbnails. Local CV overrides simplify the profile block and keep date badges readable.
 
 ## Edit content
 
-- `_pages/about.md`: biography; the profile photo is disabled.
+- `_pages/about.md`: biography and the default al-folio profile photo. `assets/img/sehyeon-lee.jpg` is the original Downloads photo; `assets/css/profile-photo.css` frames its face and upper body without modifying the image.
 - `_pages/publications.md` and `_bibliography/papers.bib`: publications; `assets/css/publication-preview-layout.css` sets the responsive thumbnail layout.
 - `assets/img/publication_preview/duru-pareto-v3.svg`: simplified measured Pareto thumbnail; `assets/js/publication-previews.js` links it to FairServing.
-- `_pages/cv.md` and `_data/cv.yml`: CV page and education.
-- `_data/socials.yml`: public profile links.
+- `_pages/cv.md` and `_data/cv.yml`: CV page and education. `_includes/cv/render.liquid` is based on `al_folio_cv` 1.0.2 with a compact name/title profile block; `_layouts/cv.liquid` adjusts date layout.
+- `_data/socials.yml`: homepage email, GitHub, and LinkedIn links.
 - `_news/`: dated announcements.
 - `_config.yml`: site settings and feature flags.
 

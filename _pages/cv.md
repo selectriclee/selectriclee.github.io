@@ -5,5 +5,5 @@ title: cv
 nav: true
 nav_order: 2
 cv_format: rendercv
-description: My CV PDF will be available here soon.
+cv_pdf: /assets/pdf/cv.pdf
 ---

@@ -8,6 +8,28 @@ cv:
     Education:
       - institution: University of Illinois Urbana-Champaign
         area: Computer Science
-        studyType: PhD
+        studyType: Ph.D.
+        start_date: Aug 2026
         highlights:
-          - In progress
+          - "Advisor: Prof. Nishil Talati"
+      - institution: Seoul National University
+        area: Electrical and Computer Engineering
+        studyType: B.S.
+        start_date: Mar 2020
+        end_date: Feb 2026
+        highlights:
+          - Summa cum laude
+          - "GPA: 4.11 / 4.3"
+          - "Research interests: Computer Architecture and Computer Networks"
+    Experience:
+      - company: University of Illinois Urbana-Champaign
+        position: Research Assistant
+        start_date: Aug 2026
+        highlights:
+          - Defining and optimizing agent-level fairness in agentic LLM serving
+      - company: HyperAccel
+        position: Runtime Intern
+        start_date: Mar 2026
+        end_date: Jun 2026
+        highlights:
+          - Designed and implemented the profiler software stack

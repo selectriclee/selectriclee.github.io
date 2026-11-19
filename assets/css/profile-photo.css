@@ -1,0 +1,24 @@
+/* A relaxed square crop keeps the surrounding scenery visible. */
+.profile figure {
+  position: relative;
+  aspect-ratio: 1;
+  overflow: hidden;
+  border-radius: 1.5rem;
+}
+
+.profile figure img {
+  position: absolute;
+  width: 182.8571%;
+  max-width: none;
+  height: auto;
+  left: -41.4286%;
+  top: -21.4286%;
+}
+
+@media (max-width: 575.98px) {
+  .profile.float-right {
+    float: none !important;
+    width: min(100%, 220px);
+    margin: 0 auto 1.25rem;
+  }
+}
