@@ -12,4 +12,4 @@ nav_order: 1
 {% bibliography %}
 </div>
 
-<script src="{{ '/assets/js/publication-previews.js' | relative_url }}?v=4"></script>
+<script src="{{ '/assets/js/publication-previews.js' | relative_url }}?v=6"></script>
